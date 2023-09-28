@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+  body{
+    
+    background: rgb(1,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+		
+	}
+
+  .image{
+    margin-left: 5%;
+    margin-top: 30px;
+   
+   
+  
+    }
+  #image_right{
+    height: 90vh;
+    width: 120vh;
+    
+   
+  }
+	
+label{
+	color:white;
+}	
+.tot{
+
+display:flex ;
+}
+.forl {
+	color:#b5d9f8;
+	text-decoration: none;
+}
+.sigl{
+	color:#b5d9f8;
+	text-decoration: none;
+}
+.login_form{
+  margin-top: 5%;
+  margin-bottom: 15%;
+  margin-left: 10%;
+  border-style: groove;
+  border-width: 2px;
+  border-color: #b5d9f8;
+  border-radius: 10px;
+}
+.log{
+  padding: 10%;
+}
+#logo_img{
+  width: 25px;
+  height: 25px;
+  
+  
+
+
+}
+#div_logim{
+ 
+  border-style: groove;
+  border-width: 15px;
+  border-color: #053a69;
+  border-radius: 100px;
+  background-color: rgb(51, 50, 51);
+
+}
+.logo{
+  margin-top: 3%;
+  display: flex;
+
+
+}
+#company_name{
+  color: rgb(15, 6, 67);
+  margin-left: 55%;
+}
+	
+</style>
+</head>
+<body>
+  <div class="logo"><h1 id="company_name">Smart Shop</h1><div id="div_logim"><img src="SS.png" alt="" id="logo_img"></div></div>
+	<div class="tot">
+    <div class="login_form">
+      <div class="log">
+	<form action="Login" method="post">
+		<label for="name">ENTER NAME:</label>
+<input type="text" name="name" required><br><br>
+<label for="password">PASSWORD:</label>
+<input type="password" name="password" required><br><br>
+<input type="submit" name="login">
+</form><br><br>
+<a href="fpass.html" class="forl">forgot password?</a><br><br>
+<a href="sign.html" class="sigl">signup</a>
+</div>
+
+
+
+
+
+</div>
+<div class="image">
+<img src="imm1.png" alt="" id="image_right">
+</div>
+</div>
+
+
+</body>
+</html>
