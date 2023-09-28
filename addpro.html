@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	body {
+		background-image:url(admin.jpg);
+		
+		
+		
+ 
+  background-repeat: no-repeat;
+background-position-y: 25%;
+background-size: cover;
+
+
+
+ 
+  
+ 
+
+  
+  
+
+}
+
+.tot{
+	margin-left: 450px;
+	margin-top: 100px;
+	background-color: rgba(0,0,0,0.6);
+	width: 350px;
+	height: 200px;
+	align-content: center;
+
+}
+.totin{
+	padding: 10px;
+}
+label{
+	color:white;
+}
+a{
+	color:rgb(252, 250, 250);
+	text-decoration: none;
+	display: flex;
+	padding: 10px;
+	font-size: larger;
+}
+ul{
+	display: flex;
+	
+}
+
+</style>
+</head>
+<body>
+	<div class="tot">
+		<div class="totin">
+		<form action="Addpro" method="post">
+			<label for="name">PRODUCT NAME:</label>
+			
+<input type="text" name="proname" required><br><br>
+<label for="cat">CATEGORY:</label>
+
+<input type="text" name="cat" required><br><br>
+<label for="price">PRICE:</label>
+<input type="number" name="price" required><br><br>
+<label for="name">ACTIVE:</label>
+<select name="active">
+<option>yes</option>
+<option>no</option>
+</select><br><br>
+<input type="submit" name="signup" value="add">
+</form>
+</div>
+</div>
+
+
+</body>
+</html>
