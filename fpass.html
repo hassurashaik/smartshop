@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	body {
+		background: rgb(2,0,36);
+		background: linear-gradient(90deg,rgb(10, 0, 0) 0%,rgb(42, 6, 17) 35%  , rgb(135, 24, 24) 100%);
+ 
+
+  
+  
+
+}
+.form_block{
+	background-color: rgb(14, 1, 1);
+	border-style: groove;
+	border-width: 2px;
+	border-color: #b5d9f8;
+	height: 300px;
+	padding: 2%;
+	margin-top: 150px;
+	
+}
+label{
+	color:rgb(254, 252, 252);
+}	
+.tot{
+	display: flex;
+margin-top: 30px;
+margin-left: 70px;
+}</style>
+</head>
+<body>
+	<div class="tot">
+		<img src="for.png" alt="" width="" height="600px">
+		<div class="form_block">
+		<form action="Fpass" method="post">
+
+			<label for="name">ENTER NAME:</label>
+			<input type="text" name="name" required><br><br>
+			<label for="email">ENTER EMAIL:</label>
+			
+			<input type="email" name="email" required><br><br>
+			<label for="mobilenumber">ENTER PHNO:</label>
+			<input type="number" name="mobilenumber" required><br><br>
+			<label for="securityquestion">ACTIVE:</label>
+			<select name="securityquestion">
+			<option>what is your 1st car?</option>
+			<option>what is your pet name?</option>
+			<option>what is your school name?</option>
+			</select><br><br>
+			
+			<label for="answer">ANSWER:</label>
+			<input type="text" name="answer" required><br><br>
+			<label for="password">PASSWORD:</label>
+		
+<input type="password" name="newpassword" required>
+<br><br>
+<input type="submit" name="changepass">
+</div></div>
+
+</body>
+</html>
